@@ -1,0 +1,70 @@
+@media screen and (max-width: 870px) {
+  .lisa {
+    width: 100%;
+    background-position-x: 25%;
+  }
+
+  .header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 320px;
+  }
+
+  .list_text {
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+
+  .header_list_elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    margin: 0;
+    list-style-type: none;
+    height: 190px;
+  }
+
+  .search {
+    order: -1;
+  }
+
+  .survival {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .pic1 {
+    width: 20%;
+    height: 360px;
+    padding-bottom: 40px;
+    background-size: cover;
+  }
+
+  .pic2 {
+    width: 20%;
+    height: 360px;
+    padding-bottom: 40px;
+    background-size: cover;
+  }
+
+  .pic3 {
+    width: 20%;
+    height: 360px;
+    padding-bottom: 40px;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .lisa {
+    width: 100%;
+    background-position-x: 30%;
+  }
+}
